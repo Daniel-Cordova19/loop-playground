@@ -10,10 +10,14 @@
  */
 
  let numeroFinal = 5;
-
- for (var i=-5;i<numeroFinal; i++) {
-    console.log("Voy a ejecutar el condicional para el número: " + i)
+var i = -5
+//  for (var i=-5;i<numeroFinal; i++) {
+//     console.log("Voy a ejecutar el condicional para el número: " + i)
+    if (i < numeroFinal) {
+        console.log("Soy un núemro negativo!")
+    } else {
+        console.log("Soy un número positivo!")
+    }
     // Modificar a partir de aquí
-    console.log("Soy un número positivo!")
-    console.log("Soy un núemro negativo!")
-}
+    // console.log("Soy un número positivo!")
+    // console.log("Soy un núemro negativo!")
